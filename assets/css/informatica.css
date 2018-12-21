@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    height: 100vh; 
 }
 
 
@@ -45,4 +46,31 @@
     color: #c3c63b;	
     font-size: 50px;
     margin-bottom: 10px;
+}
+
+@media(min-width: 790px) {
+
+    #informatica .titulo  hr{width: 20vw;border: solid 1px #C3C63B;}
+
+    .icones{
+        display: flex;
+        margin-top: 50px;
+    }
+
+    #informatica{
+        height: 100vh; 
+    }
+
+    #informatica .titulo{
+        margin-bottom: 0px;
+    }
+    
+
+    #informatica .icones .icone i {
+        color: #c3c63b;	
+        font-size: 70px;
+        padding: 5px 50px;
+        margin-bottom: 10px;
+    }
+    
 }
