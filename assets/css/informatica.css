@@ -1,0 +1,48 @@
+#informatica{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+#informatica .titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#informatica .titulo h2{
+    font-size: 3.5rem;
+    font-family: 'mitoafro';
+    font-weight: 100;
+    text-transform: uppercase;
+    margin-top: 100px;
+    padding: 0px 10px;
+}
+
+#informatica .titulo  hr{width: 75vw;border: solid 1px #C3C63B;}
+
+.icones{
+    margin-top: 100px;
+}
+
+#informatica .icones .icone{
+    padding: 20px 30px;
+    text-align: center;
+}
+
+#informatica .icones .icone h4{
+    font-size: 1rem;
+    color: #000;	
+    margin-bottom: 30px;
+}
+
+#informatica .icones .icone i {
+    color: #c3c63b;	
+    font-size: 50px;
+    margin-bottom: 10px;
+}

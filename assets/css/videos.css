@@ -6,6 +6,7 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-color: #000;
+    padding-bottom: 100px;
 }
 
 
@@ -100,7 +101,7 @@
 }
 
 .img-videos {
-    width: 40vh;
+    width: 70vw;
     border-radius: 10%;
 }
 
@@ -137,6 +138,7 @@
         align-items: center;
         text-align: center;
         margin-top: 0px; 
+       
       
     }
     
@@ -146,7 +148,7 @@
 
 
     .img-videos {
-        width: 30vh;
+        width: 214px;
         border-radius: 10%;
     }
 
@@ -178,6 +180,11 @@
     .mobile-canal{
         display: none;
     }
+
+    .logo-canal h2{
+        padding: 15px;
+    }
+    
   }
   
 
